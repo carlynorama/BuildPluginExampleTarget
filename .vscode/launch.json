@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:DemoFruitStore}",
+            "name": "Debug DemoFruitStore",
+            "program": "${workspaceFolder:DemoFruitStore}/.build/debug/DemoFruitStore",
+            "preLaunchTask": "swift: Build Debug DemoFruitStore"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:DemoFruitStore}",
+            "name": "Release DemoFruitStore",
+            "program": "${workspaceFolder:DemoFruitStore}/.build/release/DemoFruitStore",
+            "preLaunchTask": "swift: Build Release DemoFruitStore"
+        }
+    ]
+}
