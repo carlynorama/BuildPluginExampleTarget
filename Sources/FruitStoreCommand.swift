@@ -21,8 +21,8 @@ extension DemoFruitStore {
         @Argument var fruitType:String?
         
         mutating func run() throws {
-            //addCitrus()
-            
+            addCitrus()
+            addApple()
             if let fruitType {
                 if let  fruitList = FruitStore[fruitType] {
                     print("We have \(fruitList.count) \(fruitType)(s).")

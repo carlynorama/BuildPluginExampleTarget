@@ -1,13 +1,13 @@
 //citrus.swift
 let citrus = "calamondin"
 
-//struct Citrus:Fruit {
-//    let name:String
-//}
+struct Citrus:Fruit {
+    let name:String
+}
 
-//func addCitrus() {
-//    FruitStore["citrus"] = [ Citrus(name:"calamondin")]
-//}
+func addCitrus() {
+    FruitStore["citrus"] = [ Citrus(name:"calamondin")]
+}
 
 //error: expressions are not allowed at the top level
 //FruitStore["citrus"] = [ Citrus(name:"calamondin")]

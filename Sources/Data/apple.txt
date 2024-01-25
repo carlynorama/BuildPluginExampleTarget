@@ -1,2 +1,10 @@
 //apple.swift
-let apple = "rome"
+let apple = "macintosh"
+
+struct Apple:Fruit {
+    let name:String
+}
+
+func addApple() {
+    FruitStore["apple"] = [ Apple(name:"\(apple)")]
+}
