@@ -16,7 +16,9 @@ struct DemoFruitStore: ParsableCommand {
     
     struct hello: ParsableCommand {
     mutating func run() throws {
-        print("Hello, world!")
+        print("Hello, \(apple)!")
+        print("Hello, \(citrus)!")
+        print("Hello, \(banana)!")
     }
     }
 }

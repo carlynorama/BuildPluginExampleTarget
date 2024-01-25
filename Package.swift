@@ -15,10 +15,16 @@ let package = Package(
         .executableTarget(
             name: "DemoFruitStore",
             dependencies: [
-                .product(name: "ArgumentParser", package: "swift-argument-parser"),
-                .product(name: "FruitStoreBuild", package: "FruitStoreBuild")
+                .product(name: "ArgumentParser", package: "swift-argument-parser")
+                //NOT HERE !!! .product(name: , package: "FruitStoreBuild")
             ],
-            exclude: ["apple.txt", "Data"]
+            exclude: [
+                "Data"
+            ],
+            plugins: [
+                //HERE!!
+                .plugin(name: "FruitStoreBuild", package: "FruitStoreBuild")
+            ]
         ),
     ]
 )
