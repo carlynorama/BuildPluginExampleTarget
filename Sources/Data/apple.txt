@@ -1,2 +1,2 @@
 //apple.swift
-let apple = "macintosh"
+let apple = "rome"

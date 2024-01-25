@@ -18,7 +18,6 @@ struct DemoFruitStore: ParsableCommand {
     mutating func run() throws {
         print("Hello, \(apple)!")
         print("Hello, \(citrus)!")
-        print("Hello, \(banana)!")
     }
     }
 }
