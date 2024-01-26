@@ -1,2 +1,4 @@
-//apple.swift
-let apple = "macintosh"
+macintosh
+rome
+fuji
+cortland
